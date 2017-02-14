@@ -15,7 +15,10 @@ phi5 = 90-phi3
 phi6 = 360-2*phi4 - 2 *phi5
 phi7 = 180 - 2 * phi3
 c = heading()
-
+goto(0,-r1)
+heading(0)
+circle(r1)
+home()
 print "n: " + str(n)
 print "r2: " + str(r2)
 print "r1: " + str(r1)
